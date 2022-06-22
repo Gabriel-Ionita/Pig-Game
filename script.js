@@ -88,7 +88,7 @@ btnHold.addEventListener('click', function () {
 
     //2. check if player is >=100
     // finish game with current player win
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 100) {
       //Finish Game
       // playing will be false when scores[activePlayer] is >= 100 and the btnRoll ,btnHold will stop working.
       playing = false;
